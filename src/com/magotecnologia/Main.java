@@ -26,6 +26,7 @@ public class Main {
             System.out.println("10. Construir Red 1 \n");
             System.out.println("11. Construir Red 2 \n");
             System.out.println("12. Construir Red 3 \n");
+            System.out.println("13. Reiniciar Red  \n");
             Scanner scanner= new Scanner(System.in);
             String entrada = scanner.next();
             switch (entrada){
@@ -67,6 +68,9 @@ public class Main {
                 case "12":
                     NetworkManufacturer manufacturer3= new NetworkManufacturer();
                     myNetwork=manufacturer3.Construct(new NetworkBuilder3());
+                    break;
+                case "13":
+                    myNetwork= new Network();
                     break;
                 default:
                     System.out.println("Opción no reconocida \n");
