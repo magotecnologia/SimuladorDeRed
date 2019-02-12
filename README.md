@@ -8,7 +8,7 @@ elemento de la red es el mensaje que sale de un computador pasando por los
 canales de comunicación y los dispositivos hasta su destino. A continuación se
 describe cada uno de estos elementos:
 
-**Computador:** Se identifica con una dirección de red IP que es única en toda la red.
+**Computador:** Se identifica con una dirección de red IPv4 que es única en toda la red.
 Está conectado a un sólo canal de comunicación y a través de él puede recibir o
 enviar mensajes. Para enviar un mensaje el computador simplemente crea el
 mensaje y se lo envía al canal de comunicación. El computador recibe todos los
@@ -17,18 +17,18 @@ están dirigidos a él o los mensajes dirigidos a la dirección destino asterisc
 significa envío a toda la red, los demás los rechaza (no hace nada con ellos).
 Cuando un computador envía un mensaje imprime en pantalla lo siguiente:
 
-Mensaje enviado por computador con IP 157.253.122
+Mensaje enviado por computador con IP 157.253.122.1
 
-Con destino al computador con IP 157.253.90
+Con destino al computador con IP 157.253.90.5
 
 Contenido del mensaje: Hola
 
 Cuando un computador recibe un mensaje que estaba dirigido a él, este imprime
 en pantalla lo siguiente:
 
-Mensaje recibido por computador con IP 157.253.90
+Mensaje recibido por computador con IP 157.253.90.5
 
-El mensaje lo envió el computador con IP 157.253.122
+El mensaje lo envió el computador con IP 157.253.122.1
 
 El mensaje pasó por los siguientes dispositivos: Bridge000123, Hub000456,
 
