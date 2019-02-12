@@ -71,6 +71,7 @@ public class Main {
                     break;
                 case "13":
                     myNetwork= new Network();
+                    System.out.println("Red reiniciada \n");
                     break;
                 default:
                     System.out.println("Opción no reconocida \n");
