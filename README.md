@@ -1,6 +1,6 @@
 # Network Simulator
-
-
+1
+2
 Simulador de redes de computadores
 Se requiere diseñar y construir un simulador de redes de computadores. La red está
 compuesta por computadores, canales de comunicación y dispositivos; otro
